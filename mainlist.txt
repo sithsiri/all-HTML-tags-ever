@@ -1,0 +1,37 @@
+(If editing, add tags in alphabetical order. Do not use more than one line per tag unless for an example)
+
+
+<a>: Link. Where the link points to is determined by the href attribute. Example: <a href="google.com">This is a link.<a>
+
+<b>: Make text bold. Example: <b>This is bold text!<b> Note: This is only to be used if a header tag (h1, h2, etc.) is inapropriate.
+
+<code>: Make a line look like code. This tag will make text have a monospaced font. Example: <code>A piece of computer code</code>
+
+<dd>/<dl>/<dt>: Description list, not to be confused with <list>. Example:
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+Will make:
+Coffee
+  Black hot drink
+Milk
+  White cold drink
+
+<DOCTYPE>: At the very top of a page. Example: <DOCTYPE html>
+
+<head>: The top of the code in a page. Usually contains a <title> and links to CSS and Javascript files. Example:
+<head>
+<title>Title of the document</title>
+<link rel="stylesheet" href="styles.css">
+<script src="myscripts.js"></script>
+</head>
+
+<hr>: Define a change in content. Adds a line horizontally through the page. There is no closing tag. Example:
+<p>Some text about pandas</p>
+<hr>
+<p>Some text about cats. Yeah. CATZZZZZZZ</p>
+
+<html>: Declares, once again, that a page is HTML. Comes after the <DOCTYPE> tag but before the <head> tag.
